@@ -24,8 +24,6 @@ body{
 
 .add-gasto-h3{
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    color: #004e92;
     font-size: 22px;
     margin-bottom: 30px;
     text-align: center;
@@ -67,7 +65,7 @@ body{
 
 .gasto{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 1px solid #d3d3d3;
     align-items: center;
 }
@@ -90,6 +88,7 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color .2s ease-in-out;
+    margin-right: 20px;
 }
 
 .btn-delete:hover{
@@ -102,6 +101,8 @@ body{
     background-color: #cce5ff;
     padding: 1px;
     border-radius: 5px;
+    margin-left: 20px;
+
 }
 
 .presupuesto p {
@@ -118,6 +119,7 @@ body{
     background-color: #d4edda;
     padding: 1px;
     border-radius: 5px;
+    margin-left: 20px;
 }
 
 .restante p{
@@ -128,6 +130,11 @@ body{
 
 .restante span{
     font-weight: normal;
+}
+
+.gasto p {
+    margin-left: 20px;
+    width: 120px;
 }
 
 
